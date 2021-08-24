@@ -17,7 +17,7 @@ function App() {
   }, [])
 
   return (
-    <div className="App">
+    <div>
       <h1>Hello Zagreus</h1>
       <Gods gods={gods} />
     </div>

@@ -3,16 +3,13 @@ import React from "react";
 const Gods = ({ gods }) => {
   return (
     <div>
-      <ul>
-        {gods && gods.map((god) => (
-          <li>
-            {god.name} - {god.title} 
+      {gods &&
+        gods.map((god, i) => (
+          <li key={i}>
+            <img style={{ height: "100px", width: "100px" }} src={god.image} />{" "}
+            {god.name} - {god.title}
           </li>
         ))}
-      </ul>
-      {gods && gods.map((god) => (
-          god.image ? <img src={god.image} /> : null
-      ))}
     </div>
   );
 };
