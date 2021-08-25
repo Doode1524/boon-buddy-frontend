@@ -28,7 +28,7 @@ function App() {
   return (
     <div>
       <h1>Hello Zagreus</h1>
-      <Gods gods={gods} />
+      <Gods gods={gods} boons={boons} />
       <Boons boons={boons} />
     </div>
   );

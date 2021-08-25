@@ -15,8 +15,6 @@ const Boons = ({ boons }) => {
 
   findPrereqs();
 
-  debugger
-
   return <div>Hello boons</div>;
 };
 
