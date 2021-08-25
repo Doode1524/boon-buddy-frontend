@@ -9,6 +9,13 @@ const Boons = ({boons}) => {
 
     findDuos()
 
+    const findPrereqs = () => {
+        let reqs = boons.filter(boon => boon.prerequisites.length > 0)
+        console.log(reqs)
+    }
+
+   findPrereqs()
+
     return (
         <div>
             Hello boons
