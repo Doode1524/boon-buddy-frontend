@@ -1,7 +1,6 @@
 import React from "react";
 
 const Gods = ({ gods, boons }) => {
-    
   const getGodBoons = (god) => {
     console.log(god);
   };
